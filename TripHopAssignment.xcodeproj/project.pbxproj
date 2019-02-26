@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62ECB834423E785125A5E426 /* Pods_TripHopAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688726E6B6D2A840990445DA /* Pods_TripHopAssignment.framework */; };
 		7770EF2E2224F0A700D87439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF2D2224F0A700D87439 /* AppDelegate.swift */; };
-		7770EF302224F0A700D87439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF2F2224F0A700D87439 /* ViewController.swift */; };
+		7770EF302224F0A700D87439 /* HotelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF2F2224F0A700D87439 /* HotelsListViewController.swift */; };
 		7770EF332224F0A700D87439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF312224F0A700D87439 /* Main.storyboard */; };
-		7770EF352224F0A800D87439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF342224F0A800D87439 /* Assets.xcassets */; };
 		7770EF382224F0A800D87439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF362224F0A800D87439 /* LaunchScreen.storyboard */; };
+		7770EF452224F0F000D87439 /* SuperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF442224F0F000D87439 /* SuperModel.swift */; };
+		7770EF472224F10300D87439 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF462224F10300D87439 /* Hotel.swift */; };
+		7770EF492224F1A000D87439 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF482224F1A000D87439 /* Enumerations.swift */; };
+		7770EF4B2224F6AE00D87439 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF4A2224F6AE00D87439 /* Constants.swift */; };
+		7770EF4F2224F8FE00D87439 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF4C2224F8FE00D87439 /* Roboto-Medium.ttf */; };
+		7770EF502224F8FE00D87439 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF4D2224F8FE00D87439 /* Roboto-Regular.ttf */; };
+		7770EF512224F8FE00D87439 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770EF4E2224F8FE00D87439 /* Roboto-Bold.ttf */; };
+		7770EF542224FAB100D87439 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770EF532224FAB100D87439 /* Manager.swift */; };
+		77A058FC2225B4B30044E3C3 /* HotelSortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A058FB2225B4B30044E3C3 /* HotelSortDescriptor.swift */; };
+		77A058FE2225B9F30044E3C3 /* HotelFilterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A058FD2225B9F30044E3C3 /* HotelFilterDescriptor.swift */; };
+		77A059002225C0530044E3C3 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A058FF2225C0530044E3C3 /* HotelTableViewCell.swift */; };
+		77A059042225C1E60044E3C3 /* NoDataFoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A059022225C1E60044E3C3 /* NoDataFoundTableViewCell.swift */; };
+		77A059052225C1E60044E3C3 /* NoDataFoundTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A059032225C1E60044E3C3 /* NoDataFoundTableViewCell.xib */; };
+		77A059072225C2960044E3C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A059062225C2960044E3C3 /* Extensions.swift */; };
+		77A059092225C5680044E3C3 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A059082225C5680044E3C3 /* DesignableView.swift */; };
+		77A0590B2225D6D10044E3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A0590A2225D6D10044E3C3 /* Assets.xcassets */; };
+		77A0590D2225D85F0044E3C3 /* HotelsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0590C2225D85F0044E3C3 /* HotelsGenerator.swift */; };
+		77A0590F2225E2D80044E3C3 /* FilterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A0590E2225E2D80044E3C3 /* FilterSelectionViewController.swift */; };
+		77A059112225F73D0044E3C3 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A059102225F73D0044E3C3 /* SuperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3700719410E5871F42B47E /* Pods-TripHopAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripHopAssignment.release.xcconfig"; path = "Target Support Files/Pods-TripHopAssignment/Pods-TripHopAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		3E493CCF03D731A7C63FF774 /* Pods-TripHopAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripHopAssignment.debug.xcconfig"; path = "Target Support Files/Pods-TripHopAssignment/Pods-TripHopAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		688726E6B6D2A840990445DA /* Pods_TripHopAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripHopAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7770EF2A2224F0A700D87439 /* TripHopAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripHopAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7770EF2D2224F0A700D87439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7770EF2F2224F0A700D87439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7770EF2F2224F0A700D87439 /* HotelsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsListViewController.swift; sourceTree = "<group>"; };
 		7770EF322224F0A700D87439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7770EF342224F0A800D87439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7770EF372224F0A800D87439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7770EF392224F0A800D87439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7770EF442224F0F000D87439 /* SuperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperModel.swift; sourceTree = "<group>"; };
+		7770EF462224F10300D87439 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		7770EF482224F1A000D87439 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		7770EF4A2224F6AE00D87439 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7770EF4C2224F8FE00D87439 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		7770EF4D2224F8FE00D87439 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		7770EF4E2224F8FE00D87439 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7770EF532224FAB100D87439 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		77A058FB2225B4B30044E3C3 /* HotelSortDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSortDescriptor.swift; sourceTree = "<group>"; };
+		77A058FD2225B9F30044E3C3 /* HotelFilterDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelFilterDescriptor.swift; sourceTree = "<group>"; };
+		77A058FF2225C0530044E3C3 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		77A059022225C1E60044E3C3 /* NoDataFoundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataFoundTableViewCell.swift; sourceTree = "<group>"; };
+		77A059032225C1E60044E3C3 /* NoDataFoundTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataFoundTableViewCell.xib; sourceTree = "<group>"; };
+		77A059062225C2960044E3C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		77A059082225C5680044E3C3 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		77A0590A2225D6D10044E3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A0590C2225D85F0044E3C3 /* HotelsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsGenerator.swift; sourceTree = "<group>"; };
+		77A0590E2225E2D80044E3C3 /* FilterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelectionViewController.swift; sourceTree = "<group>"; };
+		77A059102225F73D0044E3C3 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62ECB834423E785125A5E426 /* Pods_TripHopAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F43EBD6D9C2E577A48BEE24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E493CCF03D731A7C63FF774 /* Pods-TripHopAssignment.debug.xcconfig */,
+				3D3700719410E5871F42B47E /* Pods-TripHopAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7770EF212224F0A700D87439 = {
 			isa = PBXGroup;
 			children = (
 				7770EF2C2224F0A700D87439 /* TripHopAssignment */,
 				7770EF2B2224F0A700D87439 /* Products */,
+				1F43EBD6D9C2E577A48BEE24 /* Pods */,
+				848EC8C863FE73C430415D5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,87 @@
 			isa = PBXGroup;
 			children = (
 				7770EF2D2224F0A700D87439 /* AppDelegate.swift */,
-				7770EF2F2224F0A700D87439 /* ViewController.swift */,
 				7770EF312224F0A700D87439 /* Main.storyboard */,
-				7770EF342224F0A800D87439 /* Assets.xcassets */,
+				7770EF432224F0D200D87439 /* CustomViews */,
+				7770EF422224F0CC00D87439 /* Basics */,
+				7770EF402224F0C400D87439 /* Models */,
+				7770EF3F2224F0B700D87439 /* ViewControllers */,
 				7770EF362224F0A800D87439 /* LaunchScreen.storyboard */,
 				7770EF392224F0A800D87439 /* Info.plist */,
+				77A0590A2225D6D10044E3C3 /* Assets.xcassets */,
+				7770EF522224F90100D87439 /* Supportive Files */,
 			);
 			path = TripHopAssignment;
+			sourceTree = "<group>";
+		};
+		7770EF3F2224F0B700D87439 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7770EF2F2224F0A700D87439 /* HotelsListViewController.swift */,
+				77A0590E2225E2D80044E3C3 /* FilterSelectionViewController.swift */,
+				77A059102225F73D0044E3C3 /* SuperViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7770EF402224F0C400D87439 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7770EF442224F0F000D87439 /* SuperModel.swift */,
+				7770EF462224F10300D87439 /* Hotel.swift */,
+				77A0590C2225D85F0044E3C3 /* HotelsGenerator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7770EF422224F0CC00D87439 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				7770EF532224FAB100D87439 /* Manager.swift */,
+				7770EF482224F1A000D87439 /* Enumerations.swift */,
+				7770EF4A2224F6AE00D87439 /* Constants.swift */,
+				77A058FB2225B4B30044E3C3 /* HotelSortDescriptor.swift */,
+				77A058FD2225B9F30044E3C3 /* HotelFilterDescriptor.swift */,
+				77A059062225C2960044E3C3 /* Extensions.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		7770EF432224F0D200D87439 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				77A059012225C13F0044E3C3 /* NoDataFoundCell */,
+				77A058FF2225C0530044E3C3 /* HotelTableViewCell.swift */,
+				77A059082225C5680044E3C3 /* DesignableView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7770EF522224F90100D87439 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				7770EF4E2224F8FE00D87439 /* Roboto-Bold.ttf */,
+				7770EF4C2224F8FE00D87439 /* Roboto-Medium.ttf */,
+				7770EF4D2224F8FE00D87439 /* Roboto-Regular.ttf */,
+			);
+			path = "Supportive Files";
+			sourceTree = "<group>";
+		};
+		77A059012225C13F0044E3C3 /* NoDataFoundCell */ = {
+			isa = PBXGroup;
+			children = (
+				77A059022225C1E60044E3C3 /* NoDataFoundTableViewCell.swift */,
+				77A059032225C1E60044E3C3 /* NoDataFoundTableViewCell.xib */,
+			);
+			path = NoDataFoundCell;
+			sourceTree = "<group>";
+		};
+		848EC8C863FE73C430415D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688726E6B6D2A840990445DA /* Pods_TripHopAssignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7770EF3C2224F0A800D87439 /* Build configuration list for PBXNativeTarget "TripHopAssignment" */;
 			buildPhases = (
+				357A89C41B5E2D080DAA5991 /* [CP] Check Pods Manifest.lock */,
 				7770EF262224F0A700D87439 /* Sources */,
 				7770EF272224F0A700D87439 /* Frameworks */,
 				7770EF282224F0A700D87439 /* Resources */,
+				DB4E1319F9D538BB3AD9AD18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +250,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7770EF4F2224F8FE00D87439 /* Roboto-Medium.ttf in Resources */,
+				77A059052225C1E60044E3C3 /* NoDataFoundTableViewCell.xib in Resources */,
 				7770EF382224F0A800D87439 /* LaunchScreen.storyboard in Resources */,
-				7770EF352224F0A800D87439 /* Assets.xcassets in Resources */,
+				7770EF512224F8FE00D87439 /* Roboto-Bold.ttf in Resources */,
+				77A0590B2225D6D10044E3C3 /* Assets.xcassets in Resources */,
+				7770EF502224F8FE00D87439 /* Roboto-Regular.ttf in Resources */,
 				7770EF332224F0A700D87439 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		357A89C41B5E2D080DAA5991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripHopAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4E1319F9D538BB3AD9AD18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripHopAssignment/Pods-TripHopAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleCheckbox/SimpleCheckbox.framework",
+				"${BUILT_PRODUCTS_DIR}/TTRangeSlider/TTRangeSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleCheckbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTRangeSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TripHopAssignment/Pods-TripHopAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7770EF262224F0A700D87439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7770EF302224F0A700D87439 /* ViewController.swift in Sources */,
+				7770EF302224F0A700D87439 /* HotelsListViewController.swift in Sources */,
 				7770EF2E2224F0A700D87439 /* AppDelegate.swift in Sources */,
+				77A059112225F73D0044E3C3 /* SuperViewController.swift in Sources */,
+				77A0590F2225E2D80044E3C3 /* FilterSelectionViewController.swift in Sources */,
+				77A0590D2225D85F0044E3C3 /* HotelsGenerator.swift in Sources */,
+				7770EF472224F10300D87439 /* Hotel.swift in Sources */,
+				77A059092225C5680044E3C3 /* DesignableView.swift in Sources */,
+				7770EF492224F1A000D87439 /* Enumerations.swift in Sources */,
+				77A059002225C0530044E3C3 /* HotelTableViewCell.swift in Sources */,
+				77A059042225C1E60044E3C3 /* NoDataFoundTableViewCell.swift in Sources */,
+				7770EF542224FAB100D87439 /* Manager.swift in Sources */,
+				77A059072225C2960044E3C3 /* Extensions.swift in Sources */,
+				7770EF452224F0F000D87439 /* SuperModel.swift in Sources */,
+				77A058FC2225B4B30044E3C3 /* HotelSortDescriptor.swift in Sources */,
+				7770EF4B2224F6AE00D87439 /* Constants.swift in Sources */,
+				77A058FE2225B9F30044E3C3 /* HotelFilterDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +479,7 @@
 		};
 		7770EF3D2224F0A800D87439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E493CCF03D731A7C63FF774 /* Pods-TripHopAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +492,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.triphop.TripHopAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7770EF3E2224F0A800D87439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3700719410E5871F42B47E /* Pods-TripHopAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.triphop.TripHopAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
